@@ -1,0 +1,197 @@
+.container {
+  
+ 
+  display: flex;
+  flex-wrap: wrap;
+  
+    margin: 0 auto;
+
+}
+/* .body{
+  position: relative;
+  
+} */
+/* Box1 CSS is Started here */
+
+
+#navbar{
+position: fixed;
+  width: 100%;
+color:#FCC815;
+
+}
+
+.nav :hover{
+  color: #FCC815;
+  background-color: #191919;
+}
+.Diff{
+  background-color: #FCC815;
+}
+.same{
+ background-color:  #292929;
+}
+
+
+
+
+/* SecondContainer is start from here */
+
+
+/* Box 2 is started here */
+.box2 {
+  
+position:fixed;
+top: 90px;
+
+  height:600px;
+  width:26%;
+
+  background:#191919;
+ 
+  
+}
+
+ 
+.small-box{
+
+  padding:30px; 
+}
+.img {
+  border-radius: 50%;
+  
+}
+#h3{
+  color: aliceblue;
+}
+#h6{
+  color: white;
+}
+#email,#link{
+  color:#191919;
+}
+.s-m{
+  margin: 0 auto;
+  
+}
+.s-m a{
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  background: #FCC700;
+  color: white;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 12px;
+
+}
+.s-m a:hover{
+  background: #e67e22;
+}
+.s-m a i{
+  transition: 0.4s all;
+}
+.s-m a:hover> i{
+  transform: scale(1.6) rotate(25deg);
+}
+
+
+
+/* Box3 is started here */
+
+.box3 {
+ 
+  position: relative;
+ top:10%;
+ left:30%;
+  z-index: -1;
+  width:74%;
+  height: 700px;
+padding-top: 30%;
+  background:red;
+
+
+ 
+ }
+ #right-side{
+   
+ }
+ 
+ .hhh{
+   width: 100%;
+   height:40px ;
+   
+ }
+ .box4{
+   width: 600px;
+   height: 700px;
+   background:white;
+   position:relative;
+   top:100px;
+   left: 450px;
+    z-index: -1;
+   
+    
+ }
+ .box5{
+  width: 600px;
+  height: 700px;
+  
+  background:white;
+  position:relative;
+  top:100px;
+  left: 450px;
+
+z-index: -1;
+  
+
+
+ }
+ .box6{
+
+  width: 600px;
+  height: 300px;
+  
+  background:white;
+  position:relative;
+  top:100px;
+  left: 450px;
+
+z-index: -1;
+ }
+ 
+ .s-max a{
+  display: inline-flex;
+  width: 80px;
+  height: 80px;
+  background: #FCC700;
+  color: white;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 50px;
+
+}
+.s-max a:hover{
+  background: #e67e22;
+}
+.s-max a i{
+  transition: 0.4s all;
+}
+.s-max a:hover> i{
+  transform: scale(1.6) rotate(25deg);
+}
+
+ @media screen and (max-width:700px) and (min-width:350px;)
+ {
+   .box2{
+     
+   }
+ }
+
+
